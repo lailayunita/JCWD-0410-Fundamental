@@ -126,3 +126,8 @@ const myFunction = () => {
 const data = "ini adalah data";
 
 module.exports = { myFunction, data };
+
+//HOISTING -> var dan function declaration
+var test = "john"; //by default bakal naik ke paling atas jadi nanti bisa dipake dimana aja
+//bahkan di line sebelum variabel tersebut di deklarasikan begitu pun untuk function declaration
+//tidak berlaku untuk function expression
